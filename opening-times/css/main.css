@@ -1,0 +1,54 @@
+.opening-times {
+  /*outline:1px solid red;*/
+  padding: 0px;
+  margin: 10px;
+  font-size: 10px; }
+
+.opening-times .day {
+  font-size: 12px; }
+
+.opening-times .separator {
+  stroke: #f00;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+  stroke-dasharray: 1,1;
+  opacity: 0.4; }
+
+.opening-times .ampm-separator {
+  stroke: #f00;
+  stroke-width: 1px;
+  shape-rendering: crispEdges; }
+
+.opening-times .ampm-am {
+  fill: #ccc;
+  opacity: 0.2; }
+
+.opening-times .ampm-pm {
+  fill: #fff; }
+
+.opening-times .timeline {
+  stroke: #ccc; }
+
+.opening-times .timeline-today {
+  stroke: #999;
+  }
+
+.opening-times .time-block {
+  fill: #a7f335; }
+
+.opening-times .overlay {
+  fill: #fff;
+  opacity: 0.6; }
+
+.opening-times .overlay:hover {
+  opacity: 0.0;
+  cursor: pointer; }
+
+.opening-times .overlay-hidden {
+  fill: #fff;
+  opacity: 0; }
+
+.opening-times .time-marker {
+  stroke: #f00;
+  stroke-width: 1px;
+  shape-rendering: crispEdges; }
